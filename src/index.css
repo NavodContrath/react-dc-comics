@@ -21,18 +21,27 @@
 .d-flex{
   display: flex;
 }
-/*CSS*/
+/*HEADER*/
 header{
-  padding: 1rem;
   #navBar{
     justify-content: space-around;
     align-items: center;
-    a{
-      text-decoration: none;
-      color:var(--dc-header-text);
-      font-weight: bold;
-      padding: 4rem 0.5rem;
-     }
-  
+    #navMenu{
+      a{
+        text-decoration: none;
+        color:var(--dc-header-text);
+        font-weight: bold;
+        padding: 4rem 0.5rem;
+      }
+
+    }
   }
+}
+/*MAIN*/
+main{
+#jumbotron{
+  color: var(--dc-light-secondary);
+  background-color: var(--dc-dark-primary);
+  padding: 4rem;
+}
 }
