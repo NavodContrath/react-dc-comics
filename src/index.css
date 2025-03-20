@@ -10,4 +10,33 @@
   --dc-dark-primary:#1c1c1c;
   --dc-light-secondary:#ffffff;
   --dc-dark-secondary:#797979;
+  --dc-header-text:#4e4e58;
+}
+/*UTILITIES*/
+.container{
+  width:100%;
+  max-width:976px;
+  margin: auto;
+}
+.d-flex{
+  display: flex;
+}
+/*CSS*/
+header{
+  padding: 1rem;
+  #navBar{
+    justify-content: space-around;
+    align-items: center;
+    #nav-menu{
+    
+      a{
+        text-decoration: none;
+        color:var(--dc-header-text);
+        font-weight: bold;
+        padding: 4rem 0.5rem;
+       }
+    }
+
+    
+  }
 }
