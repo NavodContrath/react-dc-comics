@@ -12,6 +12,9 @@
   --dc-dark-secondary:#797979;
   --dc-header-text:#4e4e58;
 }
+/* body{
+  background-color: #0282f9;
+} */
 /*UTILITIES*/
 .container{
   width:100%;
@@ -29,8 +32,15 @@
   width: calc(100% / 12 * 2);
   margin: 1rem;
 }
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
 /*HEADER*/
 header{
+  background-color: var(--dc-light-secondary);
   #navBar{
     justify-content: space-around;
     align-items: center;
@@ -71,4 +81,25 @@ div{
 }
 }
 /*FOOTER*/
-
+footer{
+  margin-top: -1rem;
+  #our-links{
+    background-image: url("/img/footer-bg.jpg");
+    background-size: cover;
+  }
+  div .col-5{
+    justify-content: space-around;
+    padding: 2rem;
+    h3{
+      margin-top: 1rem;
+      color:var(--dc-light-secondary);
+    }
+    ul{
+      list-style: none;
+      a{
+        text-decoration: none;
+        color: var(--dc-dark-secondary);
+      }
+    }
+  }
+}
