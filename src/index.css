@@ -29,8 +29,6 @@
   width: calc(100% / 12 * 2);
   margin: 1rem;
 }
-
-
 /*HEADER*/
 header{
   #navBar{
@@ -72,3 +70,5 @@ div{
 }
 }
 }
+/*FOOTER*/
+
