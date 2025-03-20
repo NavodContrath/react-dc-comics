@@ -2,7 +2,7 @@ export default function Header() {
     return (
         <header>
             <div className="container d-flex" id="navBar">
-                <a href=""><img src="./public/img/dc-logo.png" alt="" /></a>
+                <a href=""><img src="/img/dc-logo.png" alt="" /></a>
                 <div className="d-flex" id="navMenu">
                     <a href="">CHARACTERS</a>
                     <a href="" style={{ color: "#0282f9", borderBottom: "5px solid #0282f9" }}>COMICS</a>

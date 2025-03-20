@@ -15,12 +15,22 @@
 /*UTILITIES*/
 .container{
   width:100%;
-  max-width:976px;
+  max-width:1024px;
   margin: auto;
 }
 .d-flex{
   display: flex;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-2 {
+  width: calc(100% / 12 * 2);
+  margin: 1rem;
+}
+
+
 /*HEADER*/
 header{
   #navBar{
@@ -43,5 +53,22 @@ main{
   color: var(--dc-light-secondary);
   background-color: var(--dc-dark-primary);
   padding: 4rem;
+}
+#tool-bar{
+background-color: var(--dc-light-primary);
+color: var(--dc-light-secondary);
+padding: 2rem;
+div{
+  align-items: center;
+  img{
+    max-width: 50px;
+    margin-right: 1rem;
+  }
+  a{
+    text-decoration: none;
+    color: var(--dc-light-secondary);
+    font-size: small;
+  }
+}
 }
 }
