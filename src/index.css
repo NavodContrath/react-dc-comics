@@ -1,5 +1,13 @@
+/*COMMON REGION*/
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+:root{
+  --dc-light-primary: #0282f9;
+  --dc-dark-primary:#1c1c1c;
+  --dc-light-secondary:#ffffff;
+  --dc-dark-secondary:#797979;
 }
