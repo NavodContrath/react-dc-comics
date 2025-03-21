@@ -2,7 +2,7 @@ import Card from "./Card"
 export default function ComicList() {
     return (
         <>
-            <div className="container row" style={{ padding: "2rem 0" }}>
+            <div className="container row" style={{ padding: "3rem 0", position: "relative" }}>
                 <div className="col-2">
                     <Card img="https://imgs.search.brave.com/aUNyvZBXUulb963JH7KnQm9AMr8bcBoLsiHREOqayIU/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvOWZm/ZWYzMDMtMGZhYy00/OGRkLTg3ODctYzUy/NTk0MDk2ODAwXzEu/MTc1ZDk1Mjg2NzY0/OGEwOTczMTY2NGMy/MTE1NjNlYWIuanBl/Zz9vZG5XaWR0aD02/MTImb2RuSGVpZ2h0/PTYxMiZvZG5CZz1m/ZmZmZmY" title="ACTION COMICS" />
                 </div>
@@ -39,6 +39,11 @@ export default function ComicList() {
                 <div className="col-2">
                     <Card img="https://imgs.search.brave.com/bf_FlGnymAgmvweY8YiLAcyy600JdSMl_jHpdR3t5ro/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvNTA5/M2IxOTEtZTkzZS00/NTJjLThhYTQtYTEw/ZDY0ZTcxN2E5LjA5/N2UwZWM5NDgzYzky/OGExMjY4Nzk1Nzk2/NTliZWNjLmpwZWc_/b2RuV2lkdGg9NjEy/Jm9kbkhlaWdodD02/MTImb2RuQmc9ZmZm/ZmZm" title="CATWOMAN" />
                 </div>
+                <button type="button" className="btn" id="series-btn">CURRENT SERIES</button>
+
+            </div>
+            <div style={{ textAlign: "center" }}>
+                <button type="button" className="btn" style={{ marginBottom: "1rem" }}>LOAD MORE</button>
             </div>
         </>
     )

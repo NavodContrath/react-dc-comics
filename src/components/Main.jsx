@@ -2,8 +2,7 @@ import ComicList from "./Comic-list"
 export default function Main() {
     return (
         <main>
-            <div id="jumbotron" >
-            </div>
+            <div id="jumbotron" ></div>
             <ComicList />
             <div id="tool-bar" >
                 <div className="container row">
