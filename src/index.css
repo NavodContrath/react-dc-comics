@@ -58,7 +58,9 @@ header{
 main{
   #jumbotron{
   color: var(--dc-light-secondary);
-  background-color: var(--dc-dark-primary);
+  background-image: url(/img/jumbotron.jpg);
+  background-position: top;
+  background-size: cover;
   padding: 4rem;
   }
   #tool-bar{
