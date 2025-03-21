@@ -1,8 +1,9 @@
+import ComicList from "./Comic-list"
 export default function Main() {
     return (
         <main>
             <div id="jumbotron" >
-                <div className="container"><h3>--Content goes here--</h3></div>
+                <ComicList />
             </div>
             <div id="tool-bar" >
                 <div className="container row">
