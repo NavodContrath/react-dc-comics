@@ -3,8 +3,8 @@ export default function Main() {
     return (
         <main>
             <div id="jumbotron" >
-                <ComicList />
             </div>
+            <ComicList />
             <div id="tool-bar" >
                 <div className="container row">
                     <a href="" className="col-2 d-flex"><img src="img/buy-comics-digital-comics.png" alt="" />DIGITAL COMICS</a>

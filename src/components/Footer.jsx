@@ -52,10 +52,10 @@ export default function Footer() {
             </section>
             <section id="our-social">
                 <div className="container row">
-                    <div className="col-6">
+                    <div>
                         <button type="button">SIGN-UP NOW!</button>
                     </div>
-                    <div className="col-6">
+                    <div>
                         <div className="flex-container">
                             <h3>FOLLOW US</h3>
                             <ul className="d-flex">
