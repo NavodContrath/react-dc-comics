@@ -66,6 +66,7 @@ main{
   }
   div.container{
     div.col-2{
+      padding: 0.5rem;
       margin-bottom: 3rem;
     }
   }
@@ -163,8 +164,8 @@ footer{
 .card{
   .card-head{
     img{
-      width: 150px;
-      height: 150px;
+      width: 100%;
+      height: 160px;
     }
   }
   .card-body{
