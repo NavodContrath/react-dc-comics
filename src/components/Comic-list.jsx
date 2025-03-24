@@ -11,10 +11,10 @@ export default function ComicList({ comics }) {
                         </div>
                     ))
                 }
-                <button type="button" className="btn" id="series-btn">CURRENT SERIES</button>
+                <a href=""><button type="button" className="btn" id="series-btn">CURRENT SERIES</button></a>
             </div>
             <div style={{ textAlign: "center" }}>
-                <button type="button" className="btn" style={{ marginBottom: "1rem" }}>LOAD MORE</button>
+                <a href=""><button type="button" className="btn" style={{ marginBottom: "1rem" }}>LOAD MORE</button></a>
             </div>
         </>
     )

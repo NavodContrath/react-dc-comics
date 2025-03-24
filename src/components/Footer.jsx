@@ -53,7 +53,7 @@ export default function Footer({ socialLinks }) {
             <section id="our-social">
                 <div className="container row">
                     <div>
-                        <button type="button">SIGN-UP NOW!</button>
+                        <a href=""><button type="button">SIGN-UP NOW!</button></a>
                     </div>
                     <div>
                         <div className="flex-container">

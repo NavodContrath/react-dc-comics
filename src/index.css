@@ -97,7 +97,7 @@ main{
   .btn{
     background-color: var(--dc-light-primary);
     color: var(--dc-light-secondary);
-    padding: 0.75rem;
+    padding:0.75rem 2rem;
     font-weight: bold;
     border: 1px solid black;
   }
