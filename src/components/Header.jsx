@@ -8,7 +8,7 @@ export default function Header() {
                 <div className="d-flex" id="navMenu">
                     {
                         menuLinks.map(link => (
-                            <a key={link.id} href={link.url}>{link.name}</a>
+                            <a className={link.active ? "active" : ""} key={link.id} href={link.url}>{link.name}</a>
                         ))
                     }
                 </div>
