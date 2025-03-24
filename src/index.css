@@ -38,6 +38,10 @@
 .col-7 {
   width: calc((100% / 12) * 7);
 }
+.active{
+  color: #0282f9;
+  border-bottom: 5px solid #0282f9;
+}
 /*HEADER*/
 header{
   background-color: var(--dc-light-secondary);

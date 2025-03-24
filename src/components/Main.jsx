@@ -1,9 +1,9 @@
 import ComicList from "./Comic-list"
-export default function Main() {
+export default function Main({ comics }) {
     return (
         <main>
             <div id="jumbotron" ></div>
-            <ComicList />
+            <ComicList comics={comics} />
             <div id="tool-bar" >
                 <div className="container d-flex">
                     <a href="" className="d-flex"><img src="img/buy-comics-digital-comics.png" alt="" />DIGITAL COMICS</a>
