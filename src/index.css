@@ -102,6 +102,7 @@ main{
     top: 0;
     left: 0;
     transform: translate(-10%,-50%);
+    box-shadow: 5px 5px black;
   }
 }
 /*FOOTER*/
