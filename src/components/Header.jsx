@@ -1,5 +1,4 @@
-import menuLinks from "./data/links"
-export default function Header() {
+export default function Header({ menuLinks }) {
 
     return (
         <header>
