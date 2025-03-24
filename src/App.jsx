@@ -5,6 +5,7 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 import comics from './components/data/comics'
 import menuLinks from "./components/data/links"
+import socialLinks from "./components/data/links"
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <>
       <Header menuLinks={menuLinks} />
       <Main comics={comics} />
-      <Footer />
+      <Footer socialLinks={socialLinks} />
     </>
   )
 }

@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function Footer({ socialLinks }) {
     return (
         <footer>
             <section id="our-links">
@@ -7,7 +7,7 @@ export default function Footer() {
                         <div>
                             <h3>DC COMICS</h3>
                             <ul>
-                                <li><a href="">Lorem</a></li>
+                                <li><a href=""></a></li>
                                 <li><a href="">Lorem</a></li>
                                 <li><a href="">Lorem</a></li>
                                 <li><a href="">Lorem</a></li>
@@ -59,15 +59,17 @@ export default function Footer() {
                         <div className="flex-container">
                             <h3>FOLLOW US</h3>
                             <ul className="d-flex">
-                                <li><a href=""><img src="/img/footer-facebook.png" alt="" /></a></li>
-                                <li><a href=""><img src="/img/footer-twitter.png" alt="" /></a></li>
-                                <li><a href=""><img src="/img/footer-youtube.png" alt="" /></a></li>
-                                <li><a href=""><img src="/img/footer-pinterest.png" alt="" /></a></li>
-                                <li><a href=""><img src="/img/footer-periscope.png" alt="" /></a></li>
-
+                                {
+                                    socialLinks.map(link => (
+                                        <li>
+                                            <a href={link.url}>
+                                                <img src={link.img} alt={link.name} />
+                                            </a>
+                                        </li>
+                                    ))
+                                }
                             </ul>
                         </div>
-
                     </div>
                 </div>
             </section>
