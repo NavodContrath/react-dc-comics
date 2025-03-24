@@ -4,8 +4,9 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import comics from './components/data/comics'
-import menuLinks from "./components/data/links"
-import socialLinks from "./components/data/links"
+import menuLinks from "./components/data/head-links"
+import socialLinks from './components/data/foot-links'
+
 
 
 function App() {
