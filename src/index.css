@@ -71,7 +71,7 @@ main{
   div.container{
     div.col-2{
       padding: 0.5rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
   }
   #tool-bar{
@@ -165,7 +165,7 @@ footer{
     }
   }
 }
-
+/*CARD*/
 .card{
   .card-head{
     img{
@@ -177,7 +177,5 @@ footer{
     margin-top: 0.5rem;
     color: var(--dc-light-secondary);
     font-size: small;
-    
   }
-  
 }

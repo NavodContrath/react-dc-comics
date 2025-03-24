@@ -7,15 +7,17 @@ const menuLinks = [
     },
     {
         id: 2,
-        name: "CHARACHTERS",
-        url: "#",
-        active: true
-    }, {
-        id: 3,
         name: "COMICS",
         url: "#",
+        active: true
+    },
+    {
+        id: 3,
+        name: "MOVIES",
+        url: "#",
         active: false
-    }, {
+    },
+    {
         id: 4,
         name: "TV",
         url: "#",
