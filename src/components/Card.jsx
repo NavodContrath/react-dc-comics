@@ -6,7 +6,7 @@ export default function Card(props) {
                     <img src={props.img} alt="" />
                 </div>
                 <div className="card-body">
-                    {props.title}
+                    {props.title.toUpperCase()}
                 </div>
             </div>
         </>
